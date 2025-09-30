@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Paratur</title>
+    <link rel="stylesheet" href="b.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Paratur</div>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Tour</a></li>
+                <li><a href="#">Sentites</a></li>
+                <li><a href="#">Mogic</a></li>
+                <li><a href="#">Lingus</a></li>
+                <li><a href="#">Coouture</a></li>
+            </ul>
+            <div class="cart" onclick="openCart()">
+                <span>🛒</span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Toe Freivaontinte can a Padacina</h1>
+                <p>Fule land the emantny an contrerd and responsive tour and of oflont anging or a rosted company.</p>
+                <button>Adontell Nore</button>
+            </div>
+            <div class="hero-image">
+                <img src="WhatsApp-Image-2025-09-30-at-08.37.33.jpg" alt="Foto Principal">
+            </div>
+        </section>
+        <section class="about">
+            <div class="logo-section">
+                <img src="logo.png" alt="Logo Paratur"> <!-- Adicione seu logo -->
+                <h2>Adventure responsive in Paráá</h2>
+                <p>Liudaverdolas appiloutor foil at tine as a horur corasam hosang...</p>
+                <button>Converen Now</button>
+            </div>
+            <div class="about-image">
+                <img src="turista-praia.jpg" alt="Turista na Praia"> <!-- Outra imagem -->
+            </div>
+        </section>
+        <section class="gallery">
+            <h2>The Kiclus Protesti</h2>
+            <div class="gallery-images">
+                <img src="foto1.jpg" alt="Foto 1">
+                <img src="foto2.jpg" alt="Foto 2">
+                <img src="foto3.jpg" alt="Foto 3">
+            </div>
+        </section>
+        <section class="pricing">
+            <h2>Plans and Pricing</h2>
+            <div class="plans">
+                <div class="plan">
+                    <h3>O vepeocal</h3>
+                    <ul>
+                        <li>Pucianio, ranementventura</li>
+                        <li>Lechinw wnotas</li>
+                        <li>Rasmad e destaret caou</li>
+                        <li>Rquitling tisans</li>
+                    </ul>
+                    <button>Con Cattles</button>
+                </div>
+                <div class="plan">
+                    <h3>Centgot Niot</h3>
+                    <ul>
+                        <li>Peaelivas e oet enverlions</li>
+                        <li>Celid tynostes</li>
+                        <li>Cento opynar enari care</li>
+                        <li>Parintervasura</li>
+                    </ul>
+                    <button>Conrale Shire</button>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <h2>Contato</h2>
+            <form>
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <div id="cart-modal" class="cart-modal">
+        <h2>Carrinho</h2>
+        <p>Seu carrinho está vazio.</p>
+        <button onclick="closeCart()">Fechar</button>
+    </div>
+    <script src="b.js"></script>
+</body>
+</html>
